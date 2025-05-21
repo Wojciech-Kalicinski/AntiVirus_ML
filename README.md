@@ -7,12 +7,19 @@ This project enables automatic detection of malicious software based on technica
 ## 📁 Folder and File Structure
 
 ├── data/
+
 │ ├── benign/ ← place safe .exe/.dll files here
+
 │ ├── malware/ ← place malicious .exe/.dll files here
+
 ├── extract_features.py ← extracts features from EXE/DLL files
+
 ├── prepare_data.py ← generates a CSV file with features for all files
+
 ├── prepare_utils.py ← functions for loading and splitting data
+
 ├── main.py ← trains and tests the classification model
+
 ├── data/simple_features.csv ← generated dataset file
 
  
