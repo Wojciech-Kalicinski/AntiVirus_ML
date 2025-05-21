@@ -6,6 +6,7 @@ This project enables automatic detection of malicious software based on technica
 
 ## 📁 Folder and File Structure
 Add folder data if doesn't exist and create 2 folders "malware" "benign" inside.
+
 ├── data/
 
 │ ├── benign/ ← place safe .exe/.dll files here
